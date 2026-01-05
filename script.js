@@ -102,7 +102,7 @@ function showScore(){
     resetState()
     questionElement.innerHTML= `you scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML= "Play Again";
-    nextButton.stayle.display = "block";
+    nextButton.style.display = "block";
 }
 
 
